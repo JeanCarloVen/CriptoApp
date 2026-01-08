@@ -3,7 +3,6 @@ import { devtools } from "zustand/middleware";
 import { getCryptos, fetchCurrentCryptoPrice } from "./services/CryptoServices";
 
 import type { CryptoCurrency, CryptoPrice, Pair } from "./types";
-import { boolean } from "zod/v4";
 
 type CryptoStore = {
   cryptocurrencies: CryptoCurrency[];
